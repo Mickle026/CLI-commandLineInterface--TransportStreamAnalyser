@@ -1,0 +1,11 @@
+ Console.WriteLine("");
+            Console.WriteLine("Examples:");
+            Console.WriteLine("  Analyze a file and display stats: TransportStreamAnalyzer input.ts");
+            Console.WriteLine("  Extract a single PID: TransportStreamAnalyzer input.ts -extractpid 257");
+            Console.WriteLine("  Extract multiple PIDs: TransportStreamAnalyzer input.ts -extractpids 257,258,259");
+            Console.WriteLine("  Extract a time segment: TransportStreamAnalyzer video.ts -extractsegment 01:30-02:00");
+            Console.WriteLine("  Extract a packet range: TransportStreamAnalyzer video.ts -packet-range 10000-50000");
+            Console.WriteLine("  Extract the longest program: TransportStreamAnalyzer stream.ts -extractprogram longest");
+            Console.WriteLine("  Join multiple files: TransportStreamAnalyzer -join part1.ts,part2.ts,part3.ts -output joined.ts");
+            Console.WriteLine("  Extract with a custom output directory: TransportStreamAnalyzer input.ts -extractpid 257 -same-dir");
+            Console.WriteLine("  Specify PMT PID: TransportStreamAnalyzer input.ts -extractprogram longest -pmtpid 4097");
