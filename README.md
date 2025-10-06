@@ -80,6 +80,10 @@ TransportStreamAnalyzer input.ts \-extracttimesegment 05:00-10:30 \-output clip.
 
 Contributions are welcome\! Feel free to open issues or submit pull requests.
 
+## 🧑‍💻 Developers
+
+**Author:** Mike Williams  
+
 ## **📄 License**
 
 This project is licensed under the [**MIT License**](https://www.google.com/search?q=LICENSE) \- see the LICENSE file for details.
